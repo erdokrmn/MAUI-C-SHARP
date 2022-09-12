@@ -1,0 +1,1 @@
+C:\Users\erdo\Documents\MAUI-C-SHARP\SavePerson\SavePerson\SavePerson.csproj;x64

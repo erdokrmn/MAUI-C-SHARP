@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "758499985852",
+    "project_id": "personsave-a8a76",
+    "storage_bucket": "personsave-a8a76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758499985852:android:bdce7e6803f6349d99c3b9",
+        "android_client_info": {
+          "package_name": "com.companyname.saveperson"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758499985852-0mpt3dlhurvv17jmkkud3trjlt8pgeou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATpvTG_3S4DWMc8McMIUzdVM_-oaaouCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "758499985852-0mpt3dlhurvv17jmkkud3trjlt8pgeou.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

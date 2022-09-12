@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SavePerson.View.PersonSave"
+             Title="PersonSave">
+    <VerticalStackLayout>
+        <StackLayout>
+            <StackLayout>
+                <ImageButton x:Name="IBPersonImage" 
+                             Clicked="IBPersonImage_Clicked" 
+                             Source="selectimage.PNG" 
+                             WidthRequest="200" 
+                             HeightRequest="200"
+                             Margin="5">
+
+                </ImageButton>
+            </StackLayout>
+            <StackLayout>
+                <Entry  x:Name="entPersonName" 
+                        Placeholder="Person Name" 
+                        Margin="5"/>
+            </StackLayout>
+            <StackLayout>
+                <Entry  x:Name="entPersonLastName" 
+                        Placeholder="last Name"
+                        Margin="5"/>
+            </StackLayout>
+            <StackLayout>
+                <Entry  x:Name="entAge"
+                        Placeholder="Age"
+                        Margin="5"/>
+            </StackLayout>
+            <Button x:Name="btnSave"
+                    Text="Save " 
+                    Margin="5" />
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>
