@@ -6,12 +6,12 @@ namespace SavePerson;
 public partial class MainPage : ContentPage
 {
 
-
-	public MainPage()
+   
+    public MainPage()
 	{
-		InitializeComponent();
-		
-	}
+		InitializeComponent();     
+
+}
 
 	
 

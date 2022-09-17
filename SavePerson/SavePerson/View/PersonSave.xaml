@@ -14,6 +14,16 @@
                              Margin="5">
 
                 </ImageButton>
+                <Image x:Name="PersonImage"
+                       BackgroundColor="Black" 
+                             WidthRequest="200" 
+                             HeightRequest="200"
+                             Margin="5">
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer x:Name="ImageTap"
+                                              Tapped="ImageTap_Tapped"/>
+                    </Image.GestureRecognizers>
+                </Image>
             </StackLayout>
             <StackLayout>
                 <Entry  x:Name="entPersonName" 
@@ -32,7 +42,8 @@
             </StackLayout>
             <Button x:Name="btnSave"
                     Text="Save " 
-                    Margin="5" />
+                    Margin="5" 
+                    Clicked="btnSave_Clicked"/>
         </StackLayout>
     </VerticalStackLayout>
 </ContentPage>

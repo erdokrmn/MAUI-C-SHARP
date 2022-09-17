@@ -8,5 +8,10 @@ namespace SavePerson.Model
 {
     internal class Person
     {
+        public string PersonName { get; set; }
+        public string PersonLastName { get; set; }
+        public string PersonAge { get; set; }
+        public string PersonImage { get; set; }
+
     }
 }
