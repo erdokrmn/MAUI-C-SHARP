@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 
 namespace FindPartTimeJobs.ViewModel
 {
-    internal class BaseViewModel :ObservableObject
+    public partial class BaseViewModel : ObservableObject
     {
+        [NotifyPropertyChangedFor(nameof(IsNotBusy))]
+        [ObservableProperty]
+        bool isBusy;
+
+        [ObservableProperty]
+        string title;
+
+        public bool IsNotBusy => !IsBusy;
     }
 }

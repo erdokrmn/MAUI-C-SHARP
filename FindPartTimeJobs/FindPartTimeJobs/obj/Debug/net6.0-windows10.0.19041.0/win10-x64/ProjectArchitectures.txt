@@ -1,0 +1,1 @@
+C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\FindPartTimeJobs.csproj;x64

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FindPartTimeJobs</name>
+    </assembly>
+    <members>
+        <member name="P:FindPartTimeJobs.ViewModel.BaseViewModel.IsBusy">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.BaseViewModel.isBusy"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.BaseViewModel.Title">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.BaseViewModel.title"/>
+        </member>
+        <member name="F:FindPartTimeJobs.ViewModel.UserViewModel.saveUserCommand">
+            <summary>The backing field for <see cref="P:FindPartTimeJobs.ViewModel.UserViewModel.SaveUserCommand"/>.</summary>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserViewModel.SaveUserCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FindPartTimeJobs.ViewModel.UserViewModel.SaveUserAsync"/>.</summary>
+        </member>
+    </members>
+</doc>

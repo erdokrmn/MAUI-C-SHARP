@@ -1,4 +1,7 @@
-﻿namespace FindPartTimeJobs;
+﻿using FindPartTimeJobs.Services;
+using FindPartTimeJobs.ViewModel;
+
+namespace FindPartTimeJobs;
 
 public static class MauiProgram
 {
@@ -12,7 +15,9 @@ public static class MauiProgram
 				fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
 				fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
 			});
-
-		return builder.Build();
+        builder.Services.AddSingleton<UserService>();
+        builder.Services.AddSingleton<UserViewModel>();
+        builder.Services.AddSingleton<MainPage>();
+        return builder.Build();
 	}
 }
