@@ -10,11 +10,11 @@
         <member name="P:FindPartTimeJobs.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:FindPartTimeJobs.ViewModel.BaseViewModel.title"/>
         </member>
-        <member name="F:FindPartTimeJobs.ViewModel.UserViewModel.saveUserCommand">
-            <summary>The backing field for <see cref="P:FindPartTimeJobs.ViewModel.UserViewModel.SaveUserCommand"/>.</summary>
+        <member name="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.saveUserCommand">
+            <summary>The backing field for <see cref="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.SaveUserCommand"/>.</summary>
         </member>
-        <member name="P:FindPartTimeJobs.ViewModel.UserViewModel.SaveUserCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FindPartTimeJobs.ViewModel.UserViewModel.SaveUserAsync"/>.</summary>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.SaveUserCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FindPartTimeJobs.ViewModel.UserRegisterViewModel.SaveUserAsync"/>.</summary>
         </member>
     </members>
 </doc>

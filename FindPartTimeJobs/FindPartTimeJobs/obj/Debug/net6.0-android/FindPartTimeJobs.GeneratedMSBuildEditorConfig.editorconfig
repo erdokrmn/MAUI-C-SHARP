@@ -21,12 +21,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = FindPartTimeJobs.AppShell.
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/erdo/Documents/MAUI-C-SHARP/FindPartTimeJobs/FindPartTimeJobs/MainPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = FindPartTimeJobs.MainPage.xaml
-build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
-build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
-
 [C:/Users/erdo/Documents/MAUI-C-SHARP/FindPartTimeJobs/FindPartTimeJobs/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FindPartTimeJobs.Resources.Styles.Colors.xaml
@@ -38,3 +32,15 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = FindPartTimeJobs.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/erdo/Documents/MAUI-C-SHARP/FindPartTimeJobs/FindPartTimeJobs/View/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FindPartTimeJobs.View.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/erdo/Documents/MAUI-C-SHARP/FindPartTimeJobs/FindPartTimeJobs/View/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FindPartTimeJobs.View.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Register.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Register.xaml

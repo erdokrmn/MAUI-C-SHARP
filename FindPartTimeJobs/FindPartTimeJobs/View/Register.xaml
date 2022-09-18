@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FindPartTimeJobs.View.Register"
+             xmlns:viewmodel="clr-namespace:FindPartTimeJobs.ViewModel"
+             x:DataType="viewmodel:UserRegisterViewModel"
+             Title="{Binding Title}" >
+
+
+    <StackLayout>
+        <StackLayout Orientation="Vertical" WidthRequest="200" HorizontalOptions="Center">
+            <Entry Placeholder="Ad" Text="{Binding UserName}" Margin="5"/>
+
+            <Entry Placeholder="Soyad" Text="{Binding UserLastName}" Margin="5"/>
+
+            <Entry Placeholder="Şehir" Text="{Binding UserCity}" Margin="5"/>
+
+            <Entry Placeholder="İlçe" Text="{Binding UserDistrict}" Margin="5"/>
+
+            <Entry Placeholder="Telefon Numarası" Text="{Binding UserTelNo}" Margin="5" />
+
+            <Entry Placeholder="E-Mail" Text="{Binding UserMail}" Margin="5"/>
+            
+            <Entry Placeholder="Pasword" Text="{Binding UserPassword}" Margin="5"/>
+
+            <DatePicker x:Name="dp" Date="{Binding UserBirtDay,StringFormat=dd/MM/yyyy}"  Margin="5"/>
+            <Button Text="Kaydet"
+                Command="{Binding SaveUserCommand}"
+                IsEnabled="{Binding IsNotBusy}"/>
+
+            <ActivityIndicator IsVisible="{Binding IsBusy}"
+                           IsRunning="{Binding IsBusy}"
+                           HorizontalOptions="FillAndExpand"
+                           VerticalOptions="CenterAndExpand"
+                           Grid.RowSpan="2"
+                           Grid.ColumnSpan="2"/>
+        </StackLayout>
+       
+    </StackLayout>
+   
+</ContentPage>

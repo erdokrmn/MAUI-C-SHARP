@@ -33,32 +33,27 @@ namespace FindPartTimeJobs.Services
                     UserDistrict= user.UserDistrict,
                     UserTelNo= user.UserTelNo,
                     UserMail= user.UserMail,
-                    UserBirthDay= user.UserBirthDay,
-                    UserImage= user.UserImage
+                    UserBirthDay = user.UserBirthDay,
+                    UserImage= user.UserImage,
+                    Password= user.Password
                     
 
                 });
             
             return null;
         }
-        public async Task SaveCompany(
-             string userName,
-             string userCity,
-             string userDistrict,
-             string userTelNo,
-             string userMail,
-             string userImage)
+        public async Task SaveCompany(User user)
         {
 
             await firebaseClient.Child("Users")
                 .PostAsync(new User()
                 {
-                    UserName = userName,
-                    UserCity = userCity,
-                    UserDistrict = userDistrict,
-                    UserTelNo = userTelNo,
-                    UserMail = userMail,
-                    UserImage = userImage
+                    UserName = user.UserName,
+                    UserCity = user.UserCity,
+                    UserDistrict = user.UserDistrict,
+                    UserTelNo = user.UserTelNo,
+                    UserMail = user.UserMail,
+                    UserImage = user.UserImage
 
                 });
 

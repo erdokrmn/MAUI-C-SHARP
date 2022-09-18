@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-09-17T23:05:39.120</Modified>
+      <Modified>2022-09-18T22:55:36.002</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-09-17T23:05:38.651</Modified>
+      <Modified>2022-09-18T22:55:35.528</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FindPartTimeJobs.runtimeconfig.json">
       <PackagePath>FindPartTimeJobs.runtimeconfig.json</PackagePath>
-      <Modified>2022-09-17T22:35:53.700</Modified>
+      <Modified>2022-09-18T20:50:23.859</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\FindPartTimeJobs.dll">
       <PackagePath>FindPartTimeJobs.dll</PackagePath>
-      <Modified>2022-09-17T23:05:37.664</Modified>
+      <Modified>2022-09-18T22:55:34.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>FindPartTimeJobs.exe</PackagePath>
-      <Modified>2022-09-17T23:05:37.672</Modified>
+      <Modified>2022-09-18T22:55:34.557</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.8\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1087,7 +1087,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\FindPartTimeJobs.deps.json">
       <PackagePath>FindPartTimeJobs.deps.json</PackagePath>
-      <Modified>2022-09-17T23:05:38.966</Modified>
+      <Modified>2022-09-18T22:55:35.841</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.486\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1107,23 +1107,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.232</Modified>
+      <Modified>2022-09-18T20:49:03.064</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.250</Modified>
+      <Modified>2022-09-18T20:49:03.085</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.277</Modified>
+      <Modified>2022-09-18T20:49:03.113</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.316</Modified>
+      <Modified>2022-09-18T20:49:03.158</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.466</Modified>
+      <Modified>2022-09-18T20:49:03.335</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1135,147 +1135,147 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-09-17T22:35:51.521</Modified>
+      <Modified>2022-09-18T20:49:03.383</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.728</Modified>
+      <Modified>2022-09-18T20:49:03.632</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.741</Modified>
+      <Modified>2022-09-18T20:49:03.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.754</Modified>
+      <Modified>2022-09-18T20:49:03.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.774</Modified>
+      <Modified>2022-09-18T20:49:03.684</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.855</Modified>
+      <Modified>2022-09-18T20:49:03.783</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.531</Modified>
+      <Modified>2022-09-18T20:49:03.398</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.534</Modified>
+      <Modified>2022-09-18T20:49:03.402</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.537</Modified>
+      <Modified>2022-09-18T20:49:03.407</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.541</Modified>
+      <Modified>2022-09-18T20:49:03.410</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.546</Modified>
+      <Modified>2022-09-18T20:49:03.416</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.595</Modified>
+      <Modified>2022-09-18T20:49:03.471</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.600</Modified>
+      <Modified>2022-09-18T20:49:03.478</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.606</Modified>
+      <Modified>2022-09-18T20:49:03.486</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.616</Modified>
+      <Modified>2022-09-18T20:49:03.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.643</Modified>
+      <Modified>2022-09-18T20:49:03.524</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.568</Modified>
+      <Modified>2022-09-18T20:49:03.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.572</Modified>
+      <Modified>2022-09-18T20:49:03.446</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.576</Modified>
+      <Modified>2022-09-18T20:49:03.449</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.581</Modified>
+      <Modified>2022-09-18T20:49:03.454</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.589</Modified>
+      <Modified>2022-09-18T20:49:03.466</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.548</Modified>
+      <Modified>2022-09-18T20:49:03.420</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.552</Modified>
+      <Modified>2022-09-18T20:49:03.423</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.555</Modified>
+      <Modified>2022-09-18T20:49:03.427</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.559</Modified>
+      <Modified>2022-09-18T20:49:03.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.565</Modified>
+      <Modified>2022-09-18T20:49:03.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.648</Modified>
+      <Modified>2022-09-18T20:49:03.531</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.656</Modified>
+      <Modified>2022-09-18T20:49:03.539</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.664</Modified>
+      <Modified>2022-09-18T20:49:03.551</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.679</Modified>
+      <Modified>2022-09-18T20:49:03.570</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.718</Modified>
+      <Modified>2022-09-18T20:49:03.619</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.560</Modified>
+      <Modified>2022-09-18T20:49:03.438</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.571</Modified>
+      <Modified>2022-09-18T20:49:03.451</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.586</Modified>
+      <Modified>2022-09-18T20:49:03.469</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.609</Modified>
+      <Modified>2022-09-18T20:49:03.493</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-09-17T22:35:51.667</Modified>
+      <Modified>2022-09-18T20:49:03.554</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
