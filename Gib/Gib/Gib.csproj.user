@@ -6,8 +6,11 @@
     <ActiveDebugProfile>Windows Machine</ActiveDebugProfile>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="View\MainFlayoutFlyoutMenuItem.cs">
-      <SubType>Code</SubType>
-    </Compile>
+    <MauiXaml Update="View\MainLayout.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\Register.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
   </ItemGroup>
 </Project>

@@ -1,41 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:Gib.ViewModel"
+             x:DataType="viewmodel:UserLoginViewModel"
              x:Class="Gib.MainPage">
 
-    <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
+    <StackLayout>
+        <StackLayout>
+            <Entry Placeholder="E-Mail"
+                   Margin="10" 
+                   HorizontalOptions="Center"
+                   WidthRequest="200"
+                   Text="{Binding Email}"/>
+        </StackLayout>
+        <StackLayout>
+            <Entry Placeholder="Password"
+                   Margin="10"
+                   HorizontalOptions="Center"
+                   WidthRequest="200"
+                   IsPassword="True"
+                   Text="{Binding Password}"/>
+        </StackLayout>
+        <StackLayout WidthRequest="200" HorizontalOptions="Center">
+            <Button Text="Üye olmak için tıklayınız ."
+                    BackgroundColor="White" 
+                    BorderColor="White" 
+                    TextColor="Orange"
+                    HorizontalOptions="End"
+                    FontSize="12"
+                    Command="{Binding GoToRegisterPageCommand}" />
 
-            <Image
-                Source="dotnet_bot.png"
-                SemanticProperties.Description="Cute dot net bot waving hi to you!"
-                HeightRequest="200"
-                HorizontalOptions="Center" />
+        </StackLayout>
+        <StackLayout>
+            <Button Text="Giriş yap" 
+                    HorizontalOptions="Center" 
+                    WidthRequest="200" 
+                    Margin="10" 
+                    Command="{Binding LoginUserCommand}"/>
+        </StackLayout>
 
-            <Label
-                Text="Hello, World!"
-                SemanticProperties.HeadingLevel="Level1"
-                FontSize="32"
-                HorizontalOptions="Center" />
-
-            <Label
-                Text="Welcome to .NET Multi-platform App UI"
-                SemanticProperties.HeadingLevel="Level2"
-                SemanticProperties.Description="Welcome to dot net Multi platform App U I"
-                FontSize="18"
-                HorizontalOptions="Center" />
-
-            <Button
-                x:Name="CounterBtn"
-                Text="Click me"
-                SemanticProperties.Hint="Counts the number of times you click"
-                Clicked="OnCounterClicked"
-                HorizontalOptions="Center" />
-
-        </VerticalStackLayout>
-    </ScrollView>
+    </StackLayout>
 
 </ContentPage>

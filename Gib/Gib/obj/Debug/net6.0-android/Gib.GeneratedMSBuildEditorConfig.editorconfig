@@ -33,8 +33,20 @@ build_metadata.AdditionalFiles.ManifestResourceName = Gib.Resources.Styles.Style
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/View/MainLayout.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gib.View.MainLayout.xaml
+build_metadata.AdditionalFiles.TargetPath = View\MainLayout.xaml
+build_metadata.AdditionalFiles.RelativePath = View\MainLayout.xaml
+
 [C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/View/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Gib.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/View/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Gib.View.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = View\Register.xaml
+build_metadata.AdditionalFiles.RelativePath = View\Register.xaml
