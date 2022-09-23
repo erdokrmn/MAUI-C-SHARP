@@ -1,95 +1,77 @@
-﻿using CommunityToolkit.Mvvm.Input;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 using FindPartTimeJobs.Model;
 using FindPartTimeJobs.Services;
+using Firebase.Storage;
+using ServiceStack.DataAnnotations;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace FindPartTimeJobs.ViewModel
 {
     public partial class UserRegisterViewModel : BaseViewModel
     {
         UserService userService;
+        public FileResult result;
+
+
         public ObservableCollection<User> Users { get; set; } = new();
+        FirebaseStorage firebaseStorage;
         public UserRegisterViewModel(UserService userService)
         {
+            
             this.userService = userService;
             Title = "Kullanıcı Kayıt";
         }
 
+        [ObservableProperty ,AutoIncrement]
+        int id;
 
-        private string userName;
-        public string UserName
-        {
-            get { return userName; }
-            set { userName = value; OnPropertyChanged("UserName"); }
-        }
+        [ObservableProperty]
+        string userName;
 
-        private string userLastName;
-        public string UserLastName
-        {
-            get { return userLastName; }
-            set { userLastName = value; OnPropertyChanged("UserLastName"); }
-        }
+        [ObservableProperty]
+        string userLastName;
 
-        private string userCity;
-        public string UserCity
-        {
-            get { return userCity; }
-            set { userCity = value; OnPropertyChanged("UserCity"); }
-        }
+        [ObservableProperty]
+        string userCity;
 
-        private string userDistrict;
-        public string UserDistrict
-        {
-            get { return userDistrict; }
-            set { userDistrict = value; OnPropertyChanged("UserDistrict"); }
-        }
+        [ObservableProperty]
+        string userDistrict;
 
-        private string userTelNo;
-        public string UserTelNo
-        {
-            get { return userTelNo; }
-            set { userTelNo = value; OnPropertyChanged("UserTelNo"); }
-        }
+        [ObservableProperty]
+        string userTelNo;
 
-        private string userMail;
-        public string UserMail
-        {
-            get { return userMail; }
-            set { userMail = value; OnPropertyChanged("UserMail"); }
-        }
+        [ObservableProperty]
+        string userMail;
 
-        private string userImage;
-        public string UserImage
-        {
-            get { return userImage; }
-            set { userImage = value; OnPropertyChanged("UserImage"); }
-        }
+        [ObservableProperty]
+        string userImage;
 
-        private string userTcNo;
-        public string UserTcNo
-        {
-            get { return userTcNo; }
-            set { userTcNo = value; OnPropertyChanged("UserTcNo"); }
-        }
-        private string userPassword;
-        public string UserPassword
-        {
-            get { return userPassword; }
-            set { userPassword = value; OnPropertyChanged("UserPassword"); }
-        }
+        [ObservableProperty]
+        string userTcNo;
 
-        private DateTime userBirthDay;
-        public DateTime UserBirtDay
+        [ObservableProperty]
+        string userPassword;
+
+        [ObservableProperty]
+        string userPassword2;
+
+        [ObservableProperty]
+        DateTime userBirthDay;
+
+        [ObservableProperty]
+        FileResult imageResult;
+      
+        
+        public bool canSaveUser
         {
-            get { return userBirthDay; }
-            set { userBirthDay = value; OnPropertyChanged("UserBirthDay"); }
+            get { return !string.IsNullOrEmpty(UserName)  && !string.IsNullOrEmpty(UserTcNo) && !string.IsNullOrEmpty(UserCity) && !string.IsNullOrEmpty(UserDistrict) && !string.IsNullOrEmpty(UserTelNo) && !string.IsNullOrEmpty(UserMail) && !string.IsNullOrEmpty(UserPassword) &&UserPassword==UserPassword2; }
         }
-       
 
         [RelayCommand]
-        async Task SaveUserAsync()
+        async Task GetImageAsync()
         {
-            await Shell.Current.DisplayAlert("asd", "asd", "ok");
             if (IsBusy)
             {
                 return;
@@ -97,8 +79,41 @@ namespace FindPartTimeJobs.ViewModel
             try
             {
                 IsBusy = true;
+                result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions
+                {
+                    Title = "Please pick a photo"
+                });
+                if (result == null)
+                {
+                    return;
+                }
+                string path = result.FullPath;
+                UserImage = path;
+
+            }
+            catch (Exception ex)
+            {
+                await Shell.Current.DisplayAlert("Hata", $"Fotoğraf alınamadı :{ex.Message}", "Ok");
+            }
+            finally
+            {
+                IsBusy = false;
+            }
+        }
+        [RelayCommand]
+        async Task SaveUserAsync()
+        {
+            if (IsBusy)
+            {
+                return;
+            }
+            try
+            {
+                IsBusy = true;
+                imageResult = result;
                 var users = await userService.SaveUser(new User
                 {
+                    Id=id,
                     UserName = userName,
                     UserLastName = userLastName,
                     UserTcNo = userTcNo,
@@ -107,14 +122,16 @@ namespace FindPartTimeJobs.ViewModel
                     UserTelNo = userTelNo,
                     UserMail = userMail,
                     UserBirthDay = userBirthDay,
-                    UserImage = userImage,
-                    Password=userPassword
-
+                    Password=userPassword,
+                    ImageResult=imageResult
+                    
                 });
-
-                
+                await new FirebaseStorage("findparttimejobs-4e8b5.appspot.com").
+                    Child("UserImages").Child(UserName).PutAsync(await result.OpenReadAsync());
+                await Shell.Current.DisplayAlert("Bilgilendirme", "Kayıt yapıldı", "Ok");
 
             }
+
             catch (Exception ex)
             {
                 await Shell.Current.DisplayAlert("Hata", $"Kayıt yapılamadı :{ex.Message}", "Ok");
@@ -124,6 +141,7 @@ namespace FindPartTimeJobs.ViewModel
                 IsBusy = false;
             }
         }
+        
        
     }
 }

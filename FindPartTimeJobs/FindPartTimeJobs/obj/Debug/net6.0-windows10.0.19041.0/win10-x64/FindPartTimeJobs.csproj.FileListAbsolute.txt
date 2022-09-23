@@ -349,3 +349,7 @@ C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\ayasofia.scale-100.jpg
+C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Firebase.Storage.dll
+C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\clrcompression.dll
+C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ServiceStack.Interfaces.dll

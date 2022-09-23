@@ -2,6 +2,8 @@
 using FindPartTimeJobs.Model;
 using Firebase.Database;
 using Firebase.Database.Query;
+using Firebase.Storage;
+using Microsoft.Maui.Controls;
 using System.Collections.ObjectModel;
 
 namespace FindPartTimeJobs.Services
@@ -11,37 +13,39 @@ namespace FindPartTimeJobs.Services
         
 
         FirebaseClient firebaseClient;
+        FirebaseStorage firebaseStorage;
+
         public UserService()
         {
 
             firebaseClient = new FirebaseClient("https://findparttimejobs-4e8b5-default-rtdb.firebaseio.com/");
+            firebaseStorage = new FirebaseStorage("findparttimejobs-4e8b5.appspot.com");
+
         }
 
-        List<User> userList = new();
-
-        
         public async Task<User> SaveUser(User user)
         {
 
             await firebaseClient.Child("Users")
                 .PostAsync(new User()
                 {
-                    UserName=user.UserName,
-                    UserLastName= user.UserLastName,
+                    
+                    UserName = user.UserName,
+                    UserLastName = user.UserLastName,
                     UserTcNo = user.UserTcNo,
                     UserCity = user.UserCity,
-                    UserDistrict= user.UserDistrict,
-                    UserTelNo= user.UserTelNo,
-                    UserMail= user.UserMail,
+                    UserDistrict = user.UserDistrict,
+                    UserTelNo = user.UserTelNo,
+                    UserMail = user.UserMail,
                     UserBirthDay = user.UserBirthDay,
-                    UserImage= user.UserImage,
-                    Password= user.Password
+                    Password = user.Password
                     
 
                 });
-            
+
             return null;
         }
+
         public async Task SaveCompany(User user)
         {
 

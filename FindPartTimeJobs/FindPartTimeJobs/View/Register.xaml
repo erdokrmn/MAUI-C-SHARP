@@ -9,6 +9,27 @@
 
     <StackLayout>
         <StackLayout Orientation="Vertical" WidthRequest="200" HorizontalOptions="Center">
+            
+            
+            <Image x:Name="ımage" 
+                   Source="{Binding UserImage}"
+                   Aspect="AspectFill"
+                   HeightRequest="100" 
+                   WidthRequest="100"
+                   Margin="5"
+                   HorizontalOptions="Center"
+                   BackgroundColor="Bisque" >
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Command="{Binding GetImageCommand}">
+                       
+                    </TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <StackLayout Orientation="Horizontal">
+                <CheckBox x:Name="cb" />
+                <Label FontSize="10" VerticalOptions="Center" HorizontalOptions="EndAndExpand"  Text="Eğer şirket adına kayıt yapıyorsanız kutucuğu işaretleyiniz." />
+
+            </StackLayout>
             <Entry Placeholder="Ad" Text="{Binding UserName}" Margin="5"/>
 
             <Entry Placeholder="Soyad" Text="{Binding UserLastName}" Margin="5"/>
@@ -21,9 +42,10 @@
 
             <Entry Placeholder="E-Mail" Text="{Binding UserMail}" Margin="5"/>
             
-            <Entry Placeholder="Pasword" Text="{Binding UserPassword}" Margin="5"/>
+            <Entry Placeholder="Şifre" Text="{Binding UserPassword}" Margin="5"/>
+            <Entry Placeholder="Şifre tekrar" Text="{Binding UserPassword}" Margin="5"/>
 
-            <DatePicker x:Name="dp" Date="{Binding UserBirtDay,StringFormat=dd/MM/yyyy}"  Margin="5"/>
+            <DatePicker x:Name="dp" Date="{Binding UserBirthDay}"  Margin="5" WidthRequest="200"/>
             <Button Text="Kaydet"
                 Command="{Binding SaveUserCommand}"
                 IsEnabled="{Binding IsNotBusy}"/>

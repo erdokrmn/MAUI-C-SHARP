@@ -10,6 +10,18 @@
         <member name="P:FindPartTimeJobs.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:FindPartTimeJobs.ViewModel.BaseViewModel.title"/>
         </member>
+        <member name="F:FindPartTimeJobs.ViewModel.UserLoginViewModel.goToRegisterPageCommand">
+            <summary>The backing field for <see cref="P:FindPartTimeJobs.ViewModel.UserLoginViewModel.GoToRegisterPageCommand"/>.</summary>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserLoginViewModel.GoToRegisterPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FindPartTimeJobs.ViewModel.UserLoginViewModel.GoToRegisterPageAsync"/>.</summary>
+        </member>
+        <member name="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.getImageCommand">
+            <summary>The backing field for <see cref="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.GetImageCommand"/>.</summary>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.GetImageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FindPartTimeJobs.ViewModel.UserRegisterViewModel.GetImageAsync"/>.</summary>
+        </member>
         <member name="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.saveUserCommand">
             <summary>The backing field for <see cref="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.SaveUserCommand"/>.</summary>
         </member>
