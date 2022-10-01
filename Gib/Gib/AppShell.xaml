@@ -4,11 +4,59 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Gib"
-    Shell.FlyoutBehavior="Disabled">
+    xmlns:view="clr-namespace:Gib.View"
+    xmlns:viewmodel="clr-namespace:Gib.ViewModel"
+    x:DataType="viewmodel:UserLoginViewModel">
 
-    <ShellContent
-        Title="Home"
-        ContentTemplate="{DataTemplate local:MainPage}"
-        Route="MainPage" />
+    <!--Anasayfa için
+    <ShellItem Route="LoginPage" FlyoutItemIsVisible="False">
+        <ShellContent ContentTemplate="{DataTemplate view:MainFlyout}"/>
+       
+    </ShellItem>
+    -->
+
+    
+    <!--Şimdi her flyoutitem farklı sayfa için her sayfaya farklı tabler koyabiliyoruz.
+          contenttemplate koduna gitmesini istediğimiz sayfanın adını yazıyoruz
+          arkada kayıtlarını vs oluşturmak gerekiyor.-->
+
+    <FlyoutItem Title="Anasayfa" >
+
+        <Tab Title="Anasayfa" Route="Anasayfa">
+            <ShellContent ContentTemplate="{DataTemplate view:MainFlyout}"/>
+        </Tab>
+        <Tab Title="Register" Route="Register">
+            <ShellContent ContentTemplate="{DataTemplate view:Register}"/>
+        </Tab>
+        <Tab  Title="Login" Route="Login">
+            <ShellContent ContentTemplate="{DataTemplate view:Login}"/>
+        </Tab>
+
+
+    </FlyoutItem>
+
+    <FlyoutItem Title="Giriş Yap"  >
+        <ShellContent Route="Login" Title="Login" ContentTemplate="{DataTemplate view:Login}"/>
+    </FlyoutItem>
+    
+   
+   
+    
+    <Shell.FlyoutHeader>
+        <StackLayout>
+            <Label Text="{Binding LabelText}" />
+        </StackLayout>
+    </Shell.FlyoutHeader>
+    <Shell.FlyoutFooter>
+        <StackLayout>
+            <!--Bu kısım soldan açılan kısmın sonu için-->
+        </StackLayout>
+    </Shell.FlyoutFooter>
+   
+
+
+
+
+
 
 </Shell>

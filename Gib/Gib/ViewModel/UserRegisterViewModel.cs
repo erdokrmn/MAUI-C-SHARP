@@ -19,7 +19,7 @@ namespace Gib.ViewModel
         [ObservableProperty]
         string confirmpassword;
 
-
+        
 
         [RelayCommand]
         async Task RegisterUserAsync()
@@ -39,7 +39,7 @@ namespace Gib.ViewModel
                     if (token != null)
                         await App.Current.MainPage.DisplayAlert("Alert", "User Registered successfully", "OK");
 
-                    await Shell.Current.GoToAsync($"{nameof(MainLayout)}");
+                    await Shell.Current.GoToAsync($"{nameof(MainFlyout)}");
 
                 }
                 else

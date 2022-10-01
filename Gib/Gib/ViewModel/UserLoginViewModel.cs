@@ -3,23 +3,27 @@ using CommunityToolkit.Mvvm.Input;
 using Firebase.Auth;
 using Gib.View;
 using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Gib.ViewModel
 {
     public partial class UserLoginViewModel :BaseViewModel
     {
         public string webApiKey = "AIzaSyC0BrudDfiY3j_Ubdiqhjx-T4x8lPzJTjQ";
+        public bool isAuthenticateUser =false;
+
 
         [ObservableProperty]
         string email;
 
         [ObservableProperty]
         string password;
+
+
+        [ObservableProperty]
+        string labelText;
+
+
         [RelayCommand]
         async Task LoginUserAsync()
         {
@@ -30,7 +34,10 @@ namespace Gib.ViewModel
                 var content = await auth.GetFreshAuthAsync();
                 var serializedContent = JsonConvert.SerializeObject(content);
                 Preferences.Set("FreshFirebaseToken", serializedContent);
-                await Shell.Current.GoToAsync($"{nameof(MainLayout)}");
+                isAuthenticateUser = true;
+                labelText = "Giriş Yapıldı";
+                await Shell.Current.GoToAsync($"{nameof(AppShell)}");
+                // await Shell.Current.GoToAsync("AppShell");
 
             }
             catch (Exception ex)
@@ -39,6 +46,8 @@ namespace Gib.ViewModel
                 throw;
             }
         }
+        
+
 
         [RelayCommand]
         async Task GoToRegisterPageAsync()

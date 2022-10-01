@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\erdo\\Documents\\MAUI-C-SHARP\\Gib\\Gib\\Gib.csproj": {}
+    "C:\\Users\\erdo\\Documents\\GitHub\\MAUI-C-SHARP\\Gib\\Gib\\Gib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\erdo\\Documents\\MAUI-C-SHARP\\Gib\\Gib\\Gib.csproj": {
+    "C:\\Users\\erdo\\Documents\\GitHub\\MAUI-C-SHARP\\Gib\\Gib\\Gib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\erdo\\Documents\\MAUI-C-SHARP\\Gib\\Gib\\Gib.csproj",
+        "projectUniqueName": "C:\\Users\\erdo\\Documents\\GitHub\\MAUI-C-SHARP\\Gib\\Gib\\Gib.csproj",
         "projectName": "Gib",
-        "projectPath": "C:\\Users\\erdo\\Documents\\MAUI-C-SHARP\\Gib\\Gib\\Gib.csproj",
+        "projectPath": "C:\\Users\\erdo\\Documents\\GitHub\\MAUI-C-SHARP\\Gib\\Gib\\Gib.csproj",
         "packagesPath": "C:\\Users\\erdo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\erdo\\Documents\\MAUI-C-SHARP\\Gib\\Gib\\obj\\",
+        "outputPath": "C:\\Users\\erdo\\Documents\\GitHub\\MAUI-C-SHARP\\Gib\\Gib\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
@@ -111,20 +111,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-arm",
-              "version": "[6.0.8, 6.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-arm64",
-              "version": "[6.0.8, 6.0.8]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[6.0.8, 6.0.8]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.Android": {
               "privateAssets": "all"
@@ -142,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         },
         "net6.0-ios15.4": {
           "targetAlias": "net6.0-ios",
@@ -219,7 +205,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         },
         "net6.0-maccatalyst15.4": {
           "targetAlias": "net6.0-maccatalyst",
@@ -297,7 +283,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         },
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
@@ -361,19 +347,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[6.0.8, 6.0.8]"
+              "version": "[6.0.9, 6.0.9]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[6.0.8, 6.0.8]"
+              "version": "[6.0.9, 6.0.9]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.26, 10.0.19041.26]"
+              "version": "[10.0.19041.27, 10.0.19041.27]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[6.0.8, 6.0.8]"
+              "version": "[6.0.9, 6.0.9]"
             }
           ],
           "frameworkReferences": {
@@ -393,7 +379,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

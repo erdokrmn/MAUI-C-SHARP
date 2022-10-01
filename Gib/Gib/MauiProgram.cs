@@ -17,13 +17,16 @@ public static class MauiProgram
 			});
         //view
         builder.Services.AddTransient<Register>();
-        builder.Services.AddTransient<MainLayout>();
-        builder.Services.AddSingleton<MainPage>();
+        builder.Services.AddTransient<Login>();
+        builder.Services.AddSingleton<MainFlyout>();
+
+
 
 
         //viewmodel
         builder.Services.AddSingleton<UserRegisterViewModel>();
         builder.Services.AddSingleton<UserLoginViewModel>();
+        builder.Services.AddSingleton<MainPageViewModel>();
 
         return builder.Build();
 	}

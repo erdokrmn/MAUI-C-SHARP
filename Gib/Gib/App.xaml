@@ -12,14 +12,5 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
-    <Application.MainPage>
-        <Shell FlyoutBehavior="Flyout"
-               FlyoutHeaderBehavior="Fixed"
-               FlyoutVerticalScrollMode="Auto">
-            <FlyoutItem Title="Home">
-                <ShellContent ContentTemplate="{DataTemplate view:MainLayout}" />
-            </FlyoutItem>
-            
-        </Shell>
-    </Application.MainPage>
+   
 </Application>
