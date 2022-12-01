@@ -4,6 +4,8 @@
              x:Class="Gib.View.Register"
              xmlns:viewmodel="clr-namespace:Gib.ViewModel"
              x:DataType="viewmodel:UserRegisterViewModel"
+             Shell.FlyoutItemIsVisible="True"
+             Shell.TabBarIsVisible="True"
              Title="Register">
     <StackLayout>
         <StackLayout>

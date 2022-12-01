@@ -1,1 +1,1 @@
-C:\Users\erdo\Documents\GitHub\MAUI-C-SHARP\Gib\Gib\Gib.csproj;x64
+C:\Users\erdo\Documents\MAUI-C-SHARP\Gib\Gib\Gib.csproj;x64

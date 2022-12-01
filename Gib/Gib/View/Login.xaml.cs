@@ -9,13 +9,5 @@ public partial class Login : ContentPage
 		InitializeComponent();
 		BindingContext = viewModel;
 	}
-	protected override void OnDisappearing()
-	{
-		base.OnDisappearing();
-	}
-
-	private void Button_Clicked(object sender, EventArgs e)
-	{
-		OnDisappearing();
-	}
+	
 }

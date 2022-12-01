@@ -1,4 +1,6 @@
-﻿namespace Gib;
+﻿using Gib.ViewModel;
+
+namespace Gib;
 
 public partial class App : Application
 {

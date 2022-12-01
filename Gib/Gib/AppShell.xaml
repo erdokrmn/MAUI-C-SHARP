@@ -5,58 +5,37 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:Gib"
     xmlns:view="clr-namespace:Gib.View"
-    xmlns:viewmodel="clr-namespace:Gib.ViewModel"
-    x:DataType="viewmodel:UserLoginViewModel">
+    Shell.TabBarIsVisible="True"
+    Shell.FlyoutItemIsVisible="True"
+    
+    >
 
-    <!--Anasayfa için
-    <ShellItem Route="LoginPage" FlyoutItemIsVisible="False">
+
+    <FlyoutItem>
         <ShellContent ContentTemplate="{DataTemplate view:MainFlyout}"/>
-       
-    </ShellItem>
-    -->
+        <ShellContent Route="Login"
+                      FlyoutItemIsVisible="True"
+                      Title="Login"
+                      ContentTemplate="{DataTemplate view:Login}"/>
 
-    
-    <!--Şimdi her flyoutitem farklı sayfa için her sayfaya farklı tabler koyabiliyoruz.
-          contenttemplate koduna gitmesini istediğimiz sayfanın adını yazıyoruz
-          arkada kayıtlarını vs oluşturmak gerekiyor.-->
-
-    <FlyoutItem Title="Anasayfa" >
-
-        <Tab Title="Anasayfa" Route="Anasayfa">
-            <ShellContent ContentTemplate="{DataTemplate view:MainFlyout}"/>
-        </Tab>
-        <Tab Title="Register" Route="Register">
-            <ShellContent ContentTemplate="{DataTemplate view:Register}"/>
-        </Tab>
-        <Tab  Title="Login" Route="Login">
-            <ShellContent ContentTemplate="{DataTemplate view:Login}"/>
-        </Tab>
-
-
+        <ShellContent Route="LoginPage"
+                      FlyoutItemIsVisible="False"
+                      ContentTemplate="{DataTemplate view:Login}"/>
     </FlyoutItem>
 
-    <FlyoutItem Title="Giriş Yap"  >
-        <ShellContent Route="Login" Title="Login" ContentTemplate="{DataTemplate view:Login}"/>
-    </FlyoutItem>
-    
-   
-   
-    
+
     <Shell.FlyoutHeader>
         <StackLayout>
-            <Label Text="{Binding LabelText}" />
+            <Label Text="Başlık" />
         </StackLayout>
     </Shell.FlyoutHeader>
     <Shell.FlyoutFooter>
         <StackLayout>
-            <!--Bu kısım soldan açılan kısmın sonu için-->
+
+            <Button Text="Giriş Yap" />
         </StackLayout>
     </Shell.FlyoutFooter>
-   
-
-
-
-
 
 
 </Shell>
+   

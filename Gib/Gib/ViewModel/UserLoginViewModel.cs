@@ -10,7 +10,7 @@ namespace Gib.ViewModel
     public partial class UserLoginViewModel :BaseViewModel
     {
         public string webApiKey = "AIzaSyC0BrudDfiY3j_Ubdiqhjx-T4x8lPzJTjQ";
-        public bool isAuthenticateUser =false;
+        public FirebaseAuthLink auth;
 
 
         [ObservableProperty]
@@ -19,35 +19,32 @@ namespace Gib.ViewModel
         [ObservableProperty]
         string password;
 
-
-        [ObservableProperty]
-        string labelText;
-
+     
 
         [RelayCommand]
-        async Task LoginUserAsync()
+        async Task LoginUserAsync(string s)
         {
+
             var authProvider = new FirebaseAuthProvider(new FirebaseConfig(webApiKey));
-            try
-            {
-                var auth = await authProvider.SignInWithEmailAndPasswordAsync(Email, Password);
-                var content = await auth.GetFreshAuthAsync();
-                var serializedContent = JsonConvert.SerializeObject(content);
-                Preferences.Set("FreshFirebaseToken", serializedContent);
-                isAuthenticateUser = true;
-                labelText = "Giriş Yapıldı";
-                await Shell.Current.GoToAsync($"{nameof(AppShell)}");
-                // await Shell.Current.GoToAsync("AppShell");
 
-            }
-            catch (Exception ex)
-            {
-                await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
-                throw;
-            }
+                try
+                {
+                    //var userInfo = JsonConvert.DeserializeObject<Firebase.Auth.FirebaseAuth>(Preferences.Get("FreshFirebaseToken", ""));
+
+                    auth = await authProvider.SignInWithEmailAndPasswordAsync(Email, Password);
+                    var content = await auth.GetFreshAuthAsync();
+                    var serializedContent = JsonConvert.SerializeObject(content);
+                    Preferences.Set("FreshFirebaseToken", serializedContent);
+                    s = auth.User.Email;
+                    await Shell.Current.GoToAsync($"{".."}?Text={s}");
+
+                }
+                catch (Exception ex)
+                {
+                    await App.Current.MainPage.DisplayAlert("Alert", ex.Message, "OK");
+                }
+           
         }
-        
-
 
         [RelayCommand]
         async Task GoToRegisterPageAsync()

@@ -952,6 +952,9 @@ C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\lp\151\jl\files.cache
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\lp\153\jl\files.cache
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\lp\155\jl\files.cache
+C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\resizetizer\r\drawable\ayasofia.jpg
+C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\android\assets\Firebase.Storage.dll
+C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\android\assets\ServiceStack.Interfaces.dll
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\android\assets\mscorlib.dll
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\android\assets\System.Collections.Concurrent.dll
 C:\Users\erdo\Documents\MAUI-C-SHARP\FindPartTimeJobs\FindPartTimeJobs\obj\Debug\net6.0-android\android\assets\System.Data.dll

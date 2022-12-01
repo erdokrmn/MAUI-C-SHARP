@@ -4,17 +4,23 @@
         <name>Gib</name>
     </assembly>
     <members>
+        <member name="P:Gib.Pattern.Control.Text">
+            <inheritdoc cref="F:Gib.Pattern.Control.text"/>
+        </member>
         <member name="P:Gib.ViewModel.BaseViewModel.IsBusy">
             <inheritdoc cref="F:Gib.ViewModel.BaseViewModel.isBusy"/>
         </member>
         <member name="P:Gib.ViewModel.BaseViewModel.Title">
             <inheritdoc cref="F:Gib.ViewModel.BaseViewModel.title"/>
         </member>
-        <member name="F:Gib.ViewModel.MainPageViewModel.goToLoginPageCommand">
-            <summary>The backing field for <see cref="P:Gib.ViewModel.MainPageViewModel.GoToLoginPageCommand"/>.</summary>
+        <member name="P:Gib.ViewModel.MainFlyoutViewModel.Text">
+            <inheritdoc cref="F:Gib.ViewModel.MainFlyoutViewModel.text"/>
         </member>
-        <member name="P:Gib.ViewModel.MainPageViewModel.GoToLoginPageCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Gib.ViewModel.MainPageViewModel.GoToLoginPageAsync"/>.</summary>
+        <member name="F:Gib.ViewModel.MainFlyoutViewModel.goToLoginPageCommand">
+            <summary>The backing field for <see cref="P:Gib.ViewModel.MainFlyoutViewModel.GoToLoginPageCommand"/>.</summary>
+        </member>
+        <member name="P:Gib.ViewModel.MainFlyoutViewModel.GoToLoginPageCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Gib.ViewModel.MainFlyoutViewModel.GoToLoginPageAsync"/>.</summary>
         </member>
         <member name="P:Gib.ViewModel.UserLoginViewModel.Email">
             <inheritdoc cref="F:Gib.ViewModel.UserLoginViewModel.email"/>
@@ -22,14 +28,11 @@
         <member name="P:Gib.ViewModel.UserLoginViewModel.Password">
             <inheritdoc cref="F:Gib.ViewModel.UserLoginViewModel.password"/>
         </member>
-        <member name="P:Gib.ViewModel.UserLoginViewModel.LabelText">
-            <inheritdoc cref="F:Gib.ViewModel.UserLoginViewModel.labelText"/>
-        </member>
         <member name="F:Gib.ViewModel.UserLoginViewModel.loginUserCommand">
             <summary>The backing field for <see cref="P:Gib.ViewModel.UserLoginViewModel.LoginUserCommand"/>.</summary>
         </member>
         <member name="P:Gib.ViewModel.UserLoginViewModel.LoginUserCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Gib.ViewModel.UserLoginViewModel.LoginUserAsync"/>.</summary>
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:Gib.ViewModel.UserLoginViewModel.LoginUserAsync(System.String)"/>.</summary>
         </member>
         <member name="F:Gib.ViewModel.UserLoginViewModel.goToRegisterPageCommand">
             <summary>The backing field for <see cref="P:Gib.ViewModel.UserLoginViewModel.GoToRegisterPageCommand"/>.</summary>

@@ -7,45 +7,45 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Gib
-build_property.ProjectDir = C:\Users\erdo\Documents\GitHub\MAUI-C-SHARP\Gib\Gib\
+build_property.ProjectDir = C:\Users\erdo\Documents\MAUI-C-SHARP\Gib\Gib\
 
-[C:/Users/erdo/Documents/GitHub/MAUI-C-SHARP/Gib/Gib/App.xaml]
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Gib.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/erdo/Documents/GitHub/MAUI-C-SHARP/Gib/Gib/AppShell.xaml]
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Gib.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/erdo/Documents/GitHub/MAUI-C-SHARP/Gib/Gib/Resources/Styles/Colors.xaml]
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Gib.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/erdo/Documents/GitHub/MAUI-C-SHARP/Gib/Gib/Resources/Styles/Styles.xaml]
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Gib.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/erdo/Documents/GitHub/MAUI-C-SHARP/Gib/Gib/View/Login.xaml]
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/View/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Gib.View.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Login.xaml
 
-[C:/Users/erdo/Documents/GitHub/MAUI-C-SHARP/Gib/Gib/View/MainFlyout.xaml]
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/View/MainFlyout.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Gib.View.MainFlyout.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainFlyout.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainFlyout.xaml
 
-[C:/Users/erdo/Documents/GitHub/MAUI-C-SHARP/Gib/Gib/View/Register.xaml]
+[C:/Users/erdo/Documents/MAUI-C-SHARP/Gib/Gib/View/Register.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Gib.View.Register.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Register.xaml

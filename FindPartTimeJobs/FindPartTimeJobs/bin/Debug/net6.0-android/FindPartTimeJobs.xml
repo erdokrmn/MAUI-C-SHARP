@@ -16,6 +16,45 @@
         <member name="P:FindPartTimeJobs.ViewModel.UserLoginViewModel.GoToRegisterPageCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:FindPartTimeJobs.ViewModel.UserLoginViewModel.GoToRegisterPageAsync"/>.</summary>
         </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.Id">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.id"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserName">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userName"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserLastName">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userLastName"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserCity">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userCity"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserDistrict">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userDistrict"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserTelNo">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userTelNo"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserMail">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userMail"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserImage">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userImage"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserTcNo">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userTcNo"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserPassword">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userPassword"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserPassword2">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userPassword2"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.UserBirthDay">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.userBirthDay"/>
+        </member>
+        <member name="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.ImageResult">
+            <inheritdoc cref="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.imageResult"/>
+        </member>
         <member name="F:FindPartTimeJobs.ViewModel.UserRegisterViewModel.getImageCommand">
             <summary>The backing field for <see cref="P:FindPartTimeJobs.ViewModel.UserRegisterViewModel.GetImageCommand"/>.</summary>
         </member>

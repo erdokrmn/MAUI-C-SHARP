@@ -5,8 +5,10 @@
              xmlns:viewmodel="clr-namespace:Gib.ViewModel"
              x:DataType="viewmodel:UserLoginViewModel"
              Title="Login"
-             Shell.FlyoutItemIsVisible="True"
-             Shell.TabBarIsVisible="True">
+             Shell.FlyoutItemIsVisible="False"
+             Shell.TabBarIsVisible="False"
+             Shell.FlyoutBehavior="Disabled"
+             >
     <StackLayout>
         <StackLayout>
             <Entry Placeholder="E-Mail"
@@ -39,7 +41,7 @@
                     WidthRequest="200" 
                     Margin="10" 
                     Command="{Binding LoginUserCommand}"
-                    Clicked="Button_Clicked"/>
+                    />
         </StackLayout>
 
     </StackLayout>
